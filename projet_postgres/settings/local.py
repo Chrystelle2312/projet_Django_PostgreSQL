@@ -3,6 +3,8 @@ from .base import config
 
 DEBUG = True
 #ALLOWED_HOSTS = ['localhost']
+ROOT_URLCONF = 'projet_postgres.urls'
+
 
 DATABASES = {
     'default': {
